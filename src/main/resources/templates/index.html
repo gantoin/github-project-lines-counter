@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<header>
+	<title>GitHub projects lines counter</title>
+</header>
+<body>
+<h1 id="hello">How many code lines has this GitHub project?</h1>
+<div id="question">
+	<form action="#" method="post" th:action="@{/question}" th:object="${url}">
+		<label for="url">GitHub project URL: </label><input id="url"
+															placeholder="https://github.com/gantoin/github-project-lines-counter"
+															style="width: 340px" th:name="url" type="text">
+		<input type="submit" value="Ok">
+	</form>
+</div>
+</body>
+</html>

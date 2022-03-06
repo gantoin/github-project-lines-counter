@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<header>
+	<title>GitHub projects lines counter</title>
+</header>
+<body>
+<div>
+	<table>
+		<tr th:each="language: ${list}">
+			<td th:text="${language.name}"></td>
+			<td th:text="${language.lines}"></td>
+		</tr>
+		<tr>
+			<td>Total</td>
+			<td th:utext="${total}"></td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>
