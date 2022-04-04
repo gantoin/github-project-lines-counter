@@ -5,3 +5,4 @@ Simple website return number of code lines in a github project.
 mvn spring-boot:run
 ```
 
+Deployed on Heroku: https://github-lines-counter.herokuapp.com/
